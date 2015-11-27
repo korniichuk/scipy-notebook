@@ -22,3 +22,6 @@ RUN apt-get install -y npm
 
 # Install bower
 RUN npm install -g bower
+
+# Install jupyter-pip for Python 3
+RUN pip install jupyter-pip
