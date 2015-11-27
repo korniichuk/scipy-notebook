@@ -19,3 +19,6 @@ RUN apt-get install -y nodejs nodejs-legacy
 
 # Install npm for bower installation
 RUN apt-get install -y npm
+
+# Install bower
+RUN npm install -g bower
