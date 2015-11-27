@@ -25,3 +25,6 @@ RUN npm install -g bower
 
 # Install jupyter-pip for Python 3
 RUN pip install jupyter-pip
+
+# Install jupyter-pip for Python 2
+RUN /opt/conda/envs/python2/bin/pip install jupyter-pip
