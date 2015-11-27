@@ -2,7 +2,7 @@
 # Short Description: Jupyter Notebook Scientific Python
 # Full Description: The base image for korniichuk/scipy-k3d-notebook Docker
 # image.
-# Version: 0.1a1
+# Version: 0.1a2
 
 FROM jupyter/scipy-notebook:latest
 
